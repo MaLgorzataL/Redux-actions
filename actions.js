@@ -20,7 +20,7 @@ export function removeComment(commentId) {
     }
 }
 
-export function editComment(commentId) {
+export function editComment(commentId,text) {
     return {
         type: EDIT_COMMENT,
         id: commentId,
