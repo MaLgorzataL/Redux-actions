@@ -24,7 +24,7 @@ export function editComment(commentId,text) {
     return {
         type: EDIT_COMMENT,
         id: commentId,
-        text: 'wyedytowany tekst komentarza'
+        text: text
     }
 }
 
